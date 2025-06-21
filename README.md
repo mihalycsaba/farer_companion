@@ -17,6 +17,9 @@ Timer application for Elden Ring Nightreign. Available for Android, Windows, Lin
 
 Download from [Github](https://github.com/mihalycsaba/farer_companion/releases/latest)
 
+### Windows
+Until I set up signing for the exe, you need to unblock the exe in the properties.
+
 ## Updating
 
 ### Android
