@@ -27,7 +27,8 @@ jobs:
           name=$(grep '^name: ' pubspec.yaml | cut -d ' ' -f 2 | tr -d '\r')
           echo "NAME=$name" >> $GITHUB_OUTPUT
         
-        # This step extracts the version from pubspec.yaml and checks if it is a pre-release version, by checking if it contains the word "pre".  
+        # This step extracts the version from pubspec.yaml and checks if it is a pre-release version, by checking if it contains the word "pre"
+        # Consider using the X.X.X-pre.0X format for pre-release versions, because GitHub puts for example X.X.X-pre.1x after X.X.X-pre.1 in the releases list
       - name: Extract version from pubspec.yaml
         id: extract_version
         run: |
