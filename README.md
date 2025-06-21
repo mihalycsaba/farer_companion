@@ -2,9 +2,9 @@
 
 Timer application for Elden Ring Nightreign. Available for Android, Windows, Linux. Made with [Flutter 🩵](https://flutter.dev/).
 
-## Screenshots
+## Screenshot
 
-![Screenshots](readme/screenshots/screenshot.png)
+![Screenshot](readme/screenshots/screenshot.png)
 
 ## Features
 
