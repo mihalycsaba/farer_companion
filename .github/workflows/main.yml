@@ -222,6 +222,8 @@ jobs:
     if: needs.check.outputs.VERSION_EXISTS == 'false'
     name: Create Release
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Download Linux Artifacts
